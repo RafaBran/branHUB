@@ -1,1 +1,16 @@
-<p>Conteúdo inferior</p>
+<p-carousel
+  [value]="cars"
+  class="custom-carousel"
+  [autoplayInterval]="5000"
+  [circular]="true"
+>
+
+  <ng-template let-car pTemplate="item" class="containner-car-item">
+    <div class="car-item">
+        <a [href]="car.link" target="_blank"><img [src]="car.imageUrl" alt="{{ car.name }}" class="car-image" /></a>
+        <h4>{{ car.name }}</h4>
+        <p>{{ car.description }}</p>
+    </div>
+  </ng-template>
+
+</p-carousel>

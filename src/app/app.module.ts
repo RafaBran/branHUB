@@ -8,6 +8,13 @@ import { AboveContainnerComponent } from './above-containner/above-containner.co
 import { MediumContainnerComponent } from './medium-containner/medium-containner.component';
 
 import {CardModule} from 'primeng/card';
+import {ButtonModule} from 'primeng/button';
+import {RippleModule} from 'primeng/ripple';
+import {AnimateModule} from 'primeng/animate';
+import {CarouselModule} from 'primeng/carousel';
+
+
+
 
 
 
@@ -21,9 +28,11 @@ import {CardModule} from 'primeng/card';
   imports: [
     BrowserModule,
     AppRoutingModule,
-
-    
-    CardModule
+    CardModule,
+    ButtonModule,
+    RippleModule,
+    AnimateModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

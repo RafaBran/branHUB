@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--soft-gray);
-  background-image: url(../../assets/forest-img.jpg);
+  background-image: url(../../assets/tecnologia.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,8 +28,8 @@ p {
 }
 
 p:hover {
-  text-shadow: 0 0 5px var(--purple), 0 0 10px var(--purple),
-    0 0 20px var(--purple), 0 0 40px var(--purple), 0 0 80px var(--purple),
-    0 0 100px var(--purple);
+  text-shadow: 0 0 5px var(--blue), 0 0 10px var(--blue),
+    0 0 20px var(--blue), 0 0 40px var(--blue), 0 0 80px var(--blue),
+    0 0 100px var(--blue);
   font-weight: 700; /* Peso da fonte */
 }
