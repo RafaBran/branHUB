@@ -12,6 +12,7 @@ import {ButtonModule} from 'primeng/button';
 import {RippleModule} from 'primeng/ripple';
 import {AnimateModule} from 'primeng/animate';
 import {CarouselModule} from 'primeng/carousel';
+import { MainCardComponent } from './main-card/main-card.component';
 
 
 
@@ -24,6 +25,7 @@ import {CarouselModule} from 'primeng/carousel';
     BottonContainnerComponent,
     AboveContainnerComponent,
     MediumContainnerComponent,
+    MainCardComponent,
   ],
   imports: [
     BrowserModule,

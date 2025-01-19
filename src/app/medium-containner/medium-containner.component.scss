@@ -1,11 +1,11 @@
 :host {
   width: 100%;
-  height: 20vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--soft-gray);
-  background-image: url(../../assets/tecnologia.jpg);
+  background-image: url(../../assets/blue-soft.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,5 +31,4 @@ p:hover {
   text-shadow: 0 0 5px var(--blue), 0 0 10px var(--blue),
     0 0 20px var(--blue), 0 0 40px var(--blue), 0 0 80px var(--blue),
     0 0 100px var(--blue);
-  font-weight: 700; /* Peso da fonte */
 }
