@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--soft-gray);
-  background-image: url(../../assets/blue-soft.jpg);
+  background-image: url(../../assets/blue-abstract.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,8 +23,9 @@ a {
 p {
   margin: 0;
   font-family: var(--hand-font);
-  font-size: 5em;
+  font-size: 4em;
   color: var(--white);
+  transition: 2s ease-out;
 }
 
 p:hover {

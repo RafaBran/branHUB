@@ -13,6 +13,11 @@ import {RippleModule} from 'primeng/ripple';
 import {AnimateModule} from 'primeng/animate';
 import {CarouselModule} from 'primeng/carousel';
 import { MainCardComponent } from './main-card/main-card.component';
+import {TabViewModule} from 'primeng/tabview';
+import { SobreMimComponent } from './sobre-mim/sobre-mim.component';
+import { TecnologiasComponent } from './tecnologias/tecnologias.component';
+import { ConexaoComponent } from './conexao/conexao.component';
+import { ProjetosComponent } from './projetos/projetos.component';
 
 
 
@@ -26,6 +31,10 @@ import { MainCardComponent } from './main-card/main-card.component';
     AboveContainnerComponent,
     MediumContainnerComponent,
     MainCardComponent,
+    SobreMimComponent,
+    TecnologiasComponent,
+    ConexaoComponent,
+    ProjetosComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +43,8 @@ import { MainCardComponent } from './main-card/main-card.component';
     ButtonModule,
     RippleModule,
     AnimateModule,
-    CarouselModule
+    CarouselModule,
+    TabViewModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -29,7 +29,7 @@
   --purple-strong: #9e0f97;
   --blue: #3B82F6;
   --purple-soft: #49325c;
-  --green-water: #39ADA4;
+  --green-water: #136283;
 
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Open Sans", sans-serif;
@@ -37,15 +37,16 @@
 }
 
 
+//Estilização scrollbar
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 5px;
 }
 ::-webkit-scrollbar-track {
-  background: #000000;
+  background: var(--dark-gray);
 }
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: var(--dark-gray);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: var(--green-water);
 }
