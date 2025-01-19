@@ -14,7 +14,7 @@ export class BottonContainnerComponent implements OnInit {
         name: 'Calculadora de notas UNIALFA',
         description: 'Projeto para ajudar os anunos a calcularem suas notas',
         imageUrl: '../../assets/calculadoraUnialfa.PNG',
-        link: 'https://https://calculadora-unialfa.vercel.app/',
+        link: 'https://calculadora-unialfa.vercel.app/',
       },
       {
         name: 'Car 2',
