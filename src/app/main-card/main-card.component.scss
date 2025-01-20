@@ -9,13 +9,26 @@ img {
   height: 100%;
 }
 
+.titulo-principal {
+  color: var(--green-water);
+  font-size: 4rem;
+  margin-top: 1rem;
+  font-family: var(--primary-font);
+
+}
+
 .tabview {
-  margin: 1rem;
+  width: 100%;
+}
+
+:host ::ng-deep .p-tabview .p-tabview-panels {
+  padding: 0;
+  padding-top: 1rem;
 }
 
 //estilização do posicionamento das abas
 :host ::ng-deep .p-tabview-nav {
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 //estilização da borda inferior da aba selecionada
