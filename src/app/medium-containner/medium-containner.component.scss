@@ -23,13 +23,12 @@ a {
 p {
   margin: 0;
   font-family: var(--hand-font);
-  font-size: 4em;
+  font-size: 3em;
   color: var(--white);
   transition: 2s ease-out;
 }
 
 p:hover {
-  text-shadow: 0 0 5px var(--blue), 0 0 10px var(--blue),
-    0 0 20px var(--blue), 0 0 40px var(--blue), 0 0 80px var(--blue),
-    0 0 100px var(--blue);
+  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px white, 0 0 40px white,
+    0 0 80px white, 0 0 100px white;
 }

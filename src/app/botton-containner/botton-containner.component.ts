@@ -17,17 +17,12 @@ export class BottonContainnerComponent implements OnInit {
         link: 'https://calculadora-unialfa.vercel.app/',
       },
       {
-        name: 'Car 2',
-        description: 'Description 2',
-        imageUrl: '../../assets/forest-img.jpg',
-        link: '../../assets/forest-img.jpg',
+        name: 'Laec UNIALFA',
+        description: 'Projeto divulgação de informações e agendamento de aulas extras.',
+        imageUrl: '../../assets/laecUNIALFAPNG.PNG',
+        link: 'https://laec-unialfa.vercel.app/',
       },
-      {
-        name: 'Car 3',
-        description: 'Description 3',
-        imageUrl: '../../assets/forest-img.jpg',
-        link: '../../assets/forest-img.jpg',
-      },
+      
     ];
   }
   ngOnInit(): void {}

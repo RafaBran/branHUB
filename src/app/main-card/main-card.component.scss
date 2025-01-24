@@ -2,7 +2,6 @@
   width: 80%;
   height: 100%;
   display: flex;
-  border: 1px solid var(--green-water);
 }
 
 img {
@@ -10,9 +9,9 @@ img {
 }
 
 .titulo-principal {
-  color: var(--green-water);
+  color: var(--white);
   font-size: 4rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   font-family: var(--primary-font);
 
 }

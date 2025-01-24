@@ -1,0 +1,31 @@
+:host {
+  display: flex;
+  width: 100%;
+}
+
+.card-tecnologias {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.icon {
+  width: 1.8rem;
+  margin: 0.5rem;
+}
+
+.box-tecnologia {
+  display: flex;
+  align-items: center;
+}
+
+.tipo-tecnologia {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.ico-tecnologias {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
