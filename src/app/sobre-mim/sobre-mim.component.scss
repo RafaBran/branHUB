@@ -1,4 +1,17 @@
 .sobre-containner {
   text-align: justify;
   width: 30rem;
+  font-family: var(--fonte-secundaria);
+  letter-spacing: 0.1rem;
+  text-align: center;
+  line-height: 1.4rem;
+  color: #84b5c9;
 }
+
+.subtitulo-sobre {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+

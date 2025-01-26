@@ -1,6 +1,5 @@
 //mport dependencia primeflex
-@import '~primeflex/primeflex.css';
-
+@import "~primeflex/primeflex.css";
 
 // reset
 * {
@@ -9,19 +8,87 @@
   box-sizing: border-box;
 }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -32,8 +99,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -41,17 +117,21 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 
@@ -72,37 +152,45 @@ a {
 }
 
 .aligner {
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 // fontes
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: "Rhode-MediumNormal";
+  src: url("assets/fonts/Rhode-MediumNormal.ttf") format("truetype");
+}
 
 //variáveis
 :root {
   --black: #000000;
   --gray: #323232;
   --blue: #116081;
-  --dark-gray: #0D1117;
+  --dark-gray: #0d1117;
   --background-gray: #010409;
-  --line-gray: #3D444D;
+  --line-gray: #3d444d;
   --soft-gray: #7c7c7c;
   --white: #fff;
   --off-white: #f6f6cd;
   --red: #e0311b;
   --dark-red: #9e200f;
   --purple-strong: #9e0f97;
-  --blue: #3B82F6;
+  --blue: #3b82f6;
   --purple-soft: #49325c;
   --green-water: #136283;
 
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Open Sans", sans-serif;
   --hand-font: "Ms Madi", cursive;
-}
+  --fonte-principal: "Rhode-MediumNormal", cursive;
+  --fonte-secundaria: "Roboto", serif;
 
+
+}
 
 //Estilização scrollbar
 ::-webkit-scrollbar {

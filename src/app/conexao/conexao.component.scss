@@ -1,3 +1,30 @@
 .containner-conexao {
   width: 30rem;
+  text-align: justify;
+  font-family: var(--fonte-secundaria);
+  letter-spacing: 0.1rem;
+  text-align: center;
+  line-height: 1.4rem;
+  color: #84b5c9;
+}
+
+.texto-conexao {
+  margin: 1rem;
+}
+
+.links-conexao {
+  display: flex;
+  justify-content: center;
+
+}
+
+.icon {
+  width: 4rem;
+  margin: 1rem;
+  margin: 1.5rem;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
 }

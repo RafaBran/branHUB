@@ -1,7 +1,26 @@
 .containner-projetos {
-  text-align: justify;
   width: 30rem;
+  text-align: justify;
+  font-family: var(--fonte-secundaria);
+  letter-spacing: 0.1rem;
+  text-align: center;
+  line-height: 1.4rem;
+  color: #84b5c9;
 }
 a{
   text-decoration: none;
+}
+
+.texto-projetos {
+  margin-top: 1rem;
+}
+
+span {
+  color: #00eeff;
+  transition: 0.5s;
+}
+
+
+span:hover {
+  color: var(--white);
 }

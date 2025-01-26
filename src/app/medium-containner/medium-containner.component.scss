@@ -14,10 +14,11 @@
 
 .titulo-principal {
   color: #42849e;
-  font-size: 4rem;
-  font-family: var(--primary-font);
+  font-size: 3rem;
+  font-family: var(--fonte-principal);
   letter-spacing: 0.1rem;
   transition: 1s;
+
 }
 
 .titulo-principal:hover {
@@ -34,25 +35,25 @@ a {
 }
 
 .color1 {
-  color: #9ca6aa;
+  color: #538aa0;
   transition: 1s;
-  font-size: 4rem;
-  font-family: var(--primary-font);
+  font-size: 3rem;
+  font-family: var(--fonte-principal);
   letter-spacing: 0.1rem;
 }
 
 .color2 {
-  color: #8198a1;
+  color: #6d909e;
   transition: 1s;
-  font-size: 4rem;
-  font-family: var(--primary-font);
+  font-size: 3rem;
+  font-family: var(--fonte-principal);
   letter-spacing: 0.1rem;
 }
 
 .color3 {
-  color: #42849e;
+  color: #889aa1;
   transition: 1s;
-  font-size: 4rem;
-  font-family: var(--primary-font);
+  font-size: 3rem;
+  font-family: var(--fonte-principal);
   letter-spacing: 0.1rem;
 }
