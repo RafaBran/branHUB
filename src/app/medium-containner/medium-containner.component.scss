@@ -12,6 +12,19 @@
   background-size: cover;
 }
 
+.titulo-principal {
+  color: #42849e;
+  font-size: 4rem;
+  font-family: var(--primary-font);
+  letter-spacing: 0.1rem;
+  transition: 1s;
+}
+
+.titulo-principal:hover {
+  color: #bfd3db;
+}
+
+
 a {
   text-decoration: none;
   margin: 0;
@@ -20,15 +33,26 @@ a {
   justify-content: center;
 }
 
-p {
-  margin: 0;
-  font-family: var(--hand-font);
-  font-size: 3em;
-  color: var(--white);
-  transition: 2s ease-out;
+.color1 {
+  color: #9ca6aa;
+  transition: 1s;
+  font-size: 4rem;
+  font-family: var(--primary-font);
+  letter-spacing: 0.1rem;
 }
 
-p:hover {
-  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px white, 0 0 40px white,
-    0 0 80px white, 0 0 100px white;
+.color2 {
+  color: #8198a1;
+  transition: 1s;
+  font-size: 4rem;
+  font-family: var(--primary-font);
+  letter-spacing: 0.1rem;
+}
+
+.color3 {
+  color: #42849e;
+  transition: 1s;
+  font-size: 4rem;
+  font-family: var(--primary-font);
+  letter-spacing: 0.1rem;
 }

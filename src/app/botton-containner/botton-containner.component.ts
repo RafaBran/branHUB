@@ -20,9 +20,9 @@ export class BottonContainnerComponent implements OnInit {
         name: 'Laec UNIALFA',
         description: 'Projeto divulgação de informações e agendamento de aulas extras.',
         imageUrl: '../../assets/laecUNIALFAPNG.PNG',
-        link: 'https://laec-unialfa.vercel.app/',
+        link: 'https://www.laecunialfa.com.br',
       },
-      
+
     ];
   }
   ngOnInit(): void {}

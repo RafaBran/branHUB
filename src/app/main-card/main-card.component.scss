@@ -1,23 +1,23 @@
-:host {
-  width: 80%;
-  height: 100%;
+.containner-main {
+  width: 100%;
+  height: 85vh;
   display: flex;
+  justify-content: space-between;
+}
+
+.containner-img{
+  width: 33%;
+  display: flex;
+  justify-content: center;
 }
 
 img {
   height: 100%;
 }
 
-.titulo-principal {
-  color: var(--white);
-  font-size: 4rem;
-  margin-top: 1.5rem;
-  font-family: var(--primary-font);
-
-}
-
-.tabview {
-  width: 100%;
+.containner-informacoes{
+  width: 66%;
+  margin-top: 3rem;
 }
 
 :host ::ng-deep .p-tabview .p-tabview-panels {
